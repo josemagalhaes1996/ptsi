@@ -10,13 +10,13 @@
         include_once 'mysql.connect.php';
         include_once 'Funcoes_bd.php';
         ligar_base_dados();
-        include_once 'headerAdmin.php'
+        include_once 'headerAdmin.php';
         ?> 
 
 
         <div id="mainbodymp">
             <div id="novosprodutosbar">
-                <h3 class="bar-title" style="padding: 0.5%; ">Altere a sua Password:</h3>
+                <h3 class="bar-title" style="padding: 0.5%; "> teste testes eteste Altere a sua Password:</h3>
             </div>
 
 

@@ -1,0 +1,490 @@
+/* RegistoCliente e Login */
+#Body_Cliente {
+    font: 14px Arial, sans-serif;
+    color: #404040;
+    background-image: url("red_css.jpg");
+}
+
+#CaixaGardencorporation{
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px white;   
+}
+#negrito{
+    margin-top: -6%;
+    margin-left: 20%;
+}
+
+#iniciar_c{
+    margin-top: -4%;
+    margin-left: 40%;
+}
+#iniciar_c1{
+    margin-top: -8%;
+    margin-left: 60%;
+}
+
+#Login{
+    text-align: center; 
+    font-size: 25px;
+}
+
+#Registo{
+    text-align: center; 
+    font-size: 25px;
+}
+
+/* Login */
+#CaixaCliente1 {
+    text-align: center;
+    width:413px;
+    height:254px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-5%;
+    margin-left:-15%;
+
+    color: #333300;
+    font-weight: bold;
+    background-color: 	#FF7F50;
+}
+
+
+/* RegistoCliente */
+#CaixaCliente2 {
+    text-align: center;
+    width:425px;
+    height:90%;
+    position:absolute;
+    top:59%;
+    left:50%;
+    margin-top:-6%;
+    margin-left:-15%;
+    color: #333300;
+    font-weight: bold;
+    background-color: #99FF80;
+}
+
+
+#CaixaGardencorporation{
+    text-align: center;
+    width:200px;
+    height:80px;
+    top:50%;
+    left:50%;
+    margin-top:1%;
+    margin-left:34%;
+
+    color: #333300;
+}
+#img_gardenlogo{
+    margin-top:1%;
+    margin-left:50%;
+}
+
+
+#login, #password, #button-entrar, #button-registar, #nome, #nif, #email, #telefone, #morada, #password1, #buttonvoltar{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+input[id=login], input[id=password], input[id=nome], input[id=nif], input[id=email], input[id=telefone], input[id=morada], input[id=password1], input[id=quantidade], input[id=preço], input[id=fotogragia] {
+    padding: 0 10%;
+    width: 75%;
+    height: 40px;
+    color: #333300;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.1);
+    border: 0;
+}
+
+input[id=login]:focus, input[id=password]:focus, input[id=nome]:focus, input[id=nif]:focus  input[id=email]:focus, input[id=telefone]:focus, input[id=morada]:focus, input[id=password1]:focus, input[id=quantidade]:focus, input[id=preço]:focus, input[id=fotogragia] {
+    color: black;
+}
+
+label[id=login], label[id=password], label[id=nome], label[id=nif], label[id=email],label[id=telefone], label[id=morada] {
+    float: left;
+    width: 20%;
+    line-height: 40px;
+    padding-right: 10px;
+    font-weight: 100;
+    text-align: center;
+}
+
+#button-registar, #button-entrar, #buttonvoltar {
+    text-align: center;
+    alignment-adjust: central;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #669966;
+    font-size: 15px;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    background: #333300;
+    background-image: -webkit-linear-gradient(top, #333300,#669966);
+    background-image: -moz-linear-gradient(top, #333300,#669966);
+    background-image: -ms-linear-gradient(top, #333300,#669966);
+    background-image: -o-linear-gradient(top, #333300,#669966);
+}
+
+#button-registar:hover, #button-entrar:hover, #buttonvoltar:hover {
+    background: #333300;
+    text-decoration: none;
+}
+
+#button-entrar{
+    float: right;
+    width: 90px;
+    line-height: 40px;
+    height:border-box;
+    font-weight: 100;
+    text-align: center;  
+}
+
+#button-registar{
+    float: right;
+    width:90px;
+    line-height: 20px;
+    padding-right: 10px;
+    font-weight: 100;
+    text-align: center;
+}
+
+#BordaRegisto{
+    width: 400px;
+    margin-top:25px;
+}
+
+
+/* RegistoFuncionario */
+#body_funcionario{
+    font-family: Times New Roman;
+    background-color: #444444; 
+    background-image: url("red_css.jpg");
+}
+
+#action{
+    margin-top: 20px;
+}
+
+#Caixa{
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #f1f1c1;
+    width: 25%;
+    height: 25%;
+    margin-top: 5%;
+    margin-left: 38%;
+    margin-bottom: -42%;
+    background-color: #99FF80;
+}
+
+#voltar {
+    margin-left: 78%;
+    margin-top: -12%; 
+}
+
+#submit{
+    position: absolute;
+    margin-left: 12%;
+    margin-top: -0.1%;  
+}
+
+#Garden{
+    position: absolute;
+    width:30px;
+    height: 50px;
+    text-align: center;
+    margin-top: -12%;
+    margin-left: 38%;
+    font-size: 150%;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+
+/*Edita Cliente*/
+
+#table_editar_cliente1{
+    margin-left: 23%;
+    margin-top: 2%;
+}
+#table_editar_cliente a{
+    text-decoration: none;
+    color:red;
+
+}
+
+#table_editar_cliente a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+#scroll_tabela_ines{
+
+    margin-left: 5%;
+    margin-top: -14%;
+    padding:5px; 
+    height:160px;
+    width:66%; 
+    overflow-y: scroll;
+
+}
+#Tabela_scroll_stock{
+    margin-left: 5%;
+    overflow-y: auto;
+    height: 60%;
+    margin-left: 15%;
+    padding:20px; 
+
+
+}
+
+#table_pesquisar_cliente{
+    margin-top:7%;
+}
+#scroll_tabela_pesquisar{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: -8%;
+    padding:5px; 
+    height:16%;
+    width:60%; 
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+table{
+    background-color:  whitesmoke;
+    text-align: center;
+    margin-top: -1.59%;
+    margin-left: 29%;
+    border: 1;
+}
+table, th, td {
+    border: 1px solid black;
+}
+
+
+/*ListarCliente*/
+
+#table_listar_cliente{
+    margin-left: 7%;
+}
+
+#scroll_tabela_listar{
+    position: absolute;
+    margin-left: 1%;
+    margin-top: -14%;
+    padding:5px; 
+    height:20%;
+    width:66%; 
+    overflow:auto;
+    overflow-x: hidden; 
+}
+
+#buttonvoltar{
+    float: right;
+    width:90px;
+    line-height: 40px;
+    padding-right: 10px;
+    font-weight: 100;
+    text-align: center;
+    position: absolute;
+    margin-left: 75%;
+    margin-top: -6%;
+}
+
+#botoes{
+    position: absolute;
+    margin-left: 75%;
+    margin-top: -7%;
+
+}
+
+#mainbodymp{
+    background-color: whitesmoke;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-bottom-left-radius: 0.25em;
+    border-bottom-right-radius: 0.25em;
+    border-top-left-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+
+}
+#mainbodymp > ul {
+    display: inline-block;
+}
+
+#novosprodutosbar{
+    height:50px;
+    color: white;
+    //background-color: #696969;
+    max-height: 35px;
+    font-family: Tahoma, "calibri", "verdana";
+    //line-height: 0.5em;
+  background: rgb(169,3,41); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+    border-bottom-left-radius: 0.25em;
+    border-bottom-right-radius: 0.25em;
+    border-top-left-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+
+}
+
+#opcoes{
+    padding: 1%;
+}
+
+#BordaRegistoPromo{
+    width: 400px;
+    margin-top:25px;
+}
+
+/* START Apaga promoçao */
+
+#CaixaPromoapaga {
+    text-align: center;
+    width:425px;
+    height:50%;
+    //margin-left: 35%;
+    color: #333300;
+    font-weight: bold;
+
+    float:right;
+}
+
+/* END Apaga promoçao */
+
+/*END GERIR PROMOÇOES */
+
+#Registopromo{
+    text-align: center; 
+    font-size: 25px;
+}
+
+#button-registarpromo:hover, #button-entrar:hover {
+    background: #333300;
+    text-decoration: none;
+}
+
+#button-registarpromo{
+    text-align: center;
+    alignment-adjust: central;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #669966;
+    font-size: 15px;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    background: #333300;
+    background-image: -webkit-linear-gradient(top, #333300,#669966);
+    background-image: -moz-linear-gradient(top, #333300,#669966);
+    background-image: -ms-linear-gradient(top, #333300,#669966);
+    background-image: -o-linear-gradient(top, #333300,#669966);
+    position:absolute;
+    margin-left: -3%;
+}
+
+#registapromo {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 300px;
+}
+
+#abaixo_pag{
+background-color: whitesmoke;    
+color:black;
+height: 40%;
+margin-left: 10%;
+width: 40%;
+}
+
+
+#titulo_2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#google{
+ 
+    margin-left: 100%;
+
+    
+
+}
+
+#par1{
+    margin-left: -22%;
+    margin-top: -80%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    
+    background-color: white;
+    height: 40%;
+    width: 100%;
+    font-size: 20px;
+    overflow-y: auto;
+}
+
+#scroll_melhor_cliente{
+
+    margin-left: 20%;
+    margin-top: 5%;
+    padding:5px; 
+    height:140px;
+    width:48%; 
+    overflow-y: scroll;
+
+}
+
+
+
+
+#table_melhor_cliente a{
+    text-decoration: none;
+    color:red;
+
+}
+
+#table_melhor_cliente a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+#scroll_tabela_pagamento{
+ 
+    margin-left: 25%;
+    margin-top: 3%;
+    padding:5px; 
+    height:149px;
+    width:48%; 
+    overflow-y: scroll;
+}
+
+#table_editar_produto_compra_melhor{
+    margin-left: 20%;
+    margin-top: 0%;
+}
+
+#showcomment {
+    background-color: whitesmoke;
+    height:200px;
+    width: 89%;
+    /* margin-left:40%;
+    margin-top:-10%; */
+    position:relative;
+    float: right;
+    overflow: scroll;  
+}
